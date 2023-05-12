@@ -10,41 +10,37 @@ body {
     height: 100vh;
     margin: 0;
     padding: 0;
-  }
+}
 
-  h1 {
-    text-align: center;
-    margin-top:5em;
-    font-size: 5rem;
-    margin-bottom: 2rem;
-    animation: freeze 2s linear infinite;
-  }
+h1 {
+  text-align: center;
+  margin-top:5em;
+  font-size: 5rem;
+  margin-bottom: 2rem;
+}
   
-  img {
-    max-width: 100%;
-    height: auto;
-  }
+img {
+  max-width: 100%;
+  height: auto;
+}
 
-  #Glizzard-Title {
-    font-size: 6rem;
-    text-shadow: 0 0 2px rgba(255, 255, 255, 0.5);
-    color: #77b5fe;
-    font-weight: 300;
-    text-shadow: 0 0 2px rgba(255, 255, 255, 0.5);
-    padding: 5px 10px;
-    border-radius: 5px;
-    text-transform: capitalize;
-  }
+#Glizzard-Title {
+  font-size: 6rem;
+  text-shadow: 0 0 2px rgba(255, 255, 255, 0.5);
+  color: #77b5fe;
+  font-weight: 300;
+  text-shadow: 0 0 2px rgba(255, 255, 255, 0.5);
+  padding: 5px 10px;
+  border-radius: 5px;
+  text-transform: capitalize;
+}
 
-  @keyframes Glizzard-Title {
-    0% {
-      transform: translateX(0);
-    }
-    100% {
-      transform: translateX(0);
-    }
+@keyframes Glizzard-Title {
+  0% {
+    transform: translateX(0);
   }
-/* 
-  #farmer-glizbag {
-    color:rgba(255, 255, 255, 0.5)
-  } */
+  100% {
+    transform: translateX(0);
+  }
+}
+

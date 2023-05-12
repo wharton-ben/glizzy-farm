@@ -9,10 +9,11 @@
     <link rel="stylesheet" href="Styles/styles.css">
 </head>
 <html>
-    <body>
+    <body id="mainbody">
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
             <div class="container-fluid">
-              <a class="navbar-brand" href="https://glizzyfarm.io"><img src="Images/glizbag.gif" alt="Glizbag" id="farmer-glizbag" onclick="actSilly()"></img></a>
+              <a class="navbar-brand" href="https://glizzyfarm.io"><img src="Images/glizbag.gif" alt="Glizbag" id="farmer-glizbag"></img></a>
+              
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
@@ -46,8 +47,10 @@
               </div>
             </div>
           </nav>
-        <h1 id="main-text" onclick="freezeGlizzard()">There is a <span id="Glizzard-Title">GLIZZARD</span> coming...</h1>
-        <img src="Images/glizbag.gif" alt="Glizbag" id="farmer-glizbag" onclick="actSilly()"></img>
+          <div id="alltext">  
+            <h1 id="main-text" onclick="freezeGlizzard()">There is a <span id="Glizzard-Title">GLIZZARD</span> coming...</h1>
+            <a class="navbar-brand"><img src="Images/glizbag.gif" alt="Glizbag" id="farmer-glizbag" onclick="playGame()"></img></a>
+          </div>
     </body>
 <script src="App/app.js"></script>
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
